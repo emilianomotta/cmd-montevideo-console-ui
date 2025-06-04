@@ -1,0 +1,1 @@
+console.log('CMD Montevideo Console loaded');
