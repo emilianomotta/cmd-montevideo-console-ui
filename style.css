@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    background: url('theme1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.sidebar {
+    width: 250px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sidebar h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #345;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.message {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 10px 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 250px;
+}
+
+.message img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    font-style: italic;
+    background: rgba(255,255,255,0.6);
+    padding: 5px 10px;
+    border-radius: 8px;
+}
